@@ -1,9 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T07:59:49.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="22.0.3" etag="pKZ1KqAr76Fa41n7DWw2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T08:20:04.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="o_yDsqHsU7cgb71NcjwM" version="22.0.3" type="github">
   <diagram name="Страница — 1" id="LPWj_3ig-4j2mK9FM12O">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GoCvjlf8JtrMYHftsg61-1" value="Посетитель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-2" value="Менеджер по гост" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="470" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-9" value="Менеджер по ассорт" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-12" value="Оформить заказ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-14" value="Обратиться к менеджеру" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="GoCvjlf8JtrMYHftsg61-15" target="GoCvjlf8JtrMYHftsg61-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-30" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GoCvjlf8JtrMYHftsg61-29">
+          <mxGeometry x="0.08" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-15" value="Оформить отказ от покупки" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-16" value="Забрать заказ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-17" value="Предъявить талон" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-18" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="GoCvjlf8JtrMYHftsg61-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="65" as="sourcePoint" />
+            <mxPoint x="440" y="64.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-20" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="GoCvjlf8JtrMYHftsg61-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="65" as="sourcePoint" />
+            <mxPoint x="440" y="64.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-21" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GoCvjlf8JtrMYHftsg61-20">
+          <mxGeometry x="-0.0462" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-13" value="Ознакомиться с меню" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-22" value="Добавить позиции в корзину" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-24" value="Указать способ получения" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-25" value="Оплатить заказ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-26" value="Зарегистрироваться в системе лояльности" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-27" value="Выбрать способ возврата дс" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-31" value="Посмотреть инфу о тех сбоях" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="550" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-32" value="Посмотреть инфу об изменении меню" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="550" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GoCvjlf8JtrMYHftsg61-33" value="Посмотреть информацию о состоянии роботов" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="520" width="140" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
